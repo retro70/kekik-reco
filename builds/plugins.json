@@ -1,10 +1,423 @@
 [
-    {
-      "name": "KekikReco",
-      "url": "https://raw.githubusercontent.com/retro70/kekik-reco/master/KekikReco.csx",
-      "languages": ["tr"],
-      "type": "movie",
-      "icon": "https://raw.githubusercontent.com/retro70/kekik-reco/master/icon.png"
-    }
-  ]
+  {
+    "name": "4KFilmIzlesene",
+    "className": "com.nikyokki.FourKFilmIzlesene",
+    "file": "4KFilmIzlesene-release.aar"
+  },
+  {
+    "name": "AnimeIzlesene",
+    "className": "com.nikyokki.AnimeIzlesene",
+    "file": "AnimeIzlesene-release.aar"
+  },
+  {
+    "name": "AnimeciX",
+    "className": "com.nikyokki.AnimeciX",
+    "file": "AnimeciX-release.aar"
+  },
+  {
+    "name": "Animeler",
+    "className": "com.nikyokki.Animeler",
+    "file": "Animeler-release.aar"
+  },
+  {
+    "name": "Animex",
+    "className": "com.nikyokki.Animex",
+    "file": "Animex-release.aar"
+  },
+  {
+    "name": "Anizm",
+    "className": "com.nikyokki.Anizm",
+    "file": "Anizm-release.aar"
+  },
+  {
+    "name": "AsyaAnimeleri",
+    "className": "com.nikyokki.AsyaAnimeleri",
+    "file": "AsyaAnimeleri-release.aar"
+  },
+  {
+    "name": "AsyaWatch",
+    "className": "com.nikyokki.AsyaWatch",
+    "file": "AsyaWatch-release.aar"
+  },
+  {
+    "name": "BelgeselX",
+    "className": "com.nikyokki.BelgeselX",
+    "file": "BelgeselX-release.aar"
+  },
+  {
+    "name": "CanliTV",
+    "className": "com.nikyokki.CanliTV",
+    "file": "CanliTV-release.aar"
+  },
+  {
+    "name": "CanliTelevizyon",
+    "className": "com.nikyokki.CanliTelevizyon",
+    "file": "CanliTelevizyon-release.aar"
+  },
+  {
+    "name": "CizgiMax",
+    "className": "com.nikyokki.CizgiMax",
+    "file": "CizgiMax-release.aar"
+  },
+  {
+    "name": "CizgiveDizi",
+    "className": "com.nikyokki.CizgiveDizi",
+    "file": "CizgiveDizi-release.aar"
+  },
+  {
+    "name": "DMax",
+    "className": "com.nikyokki.DMax",
+    "file": "DMax-release.aar"
+  },
+  {
+    "name": "Ddizi",
+    "className": "com.nikyokki.Ddizi",
+    "file": "Ddizi-release.aar"
+  },
+  {
+    "name": "DiziBox",
+    "className": "com.nikyokki.DiziBox",
+    "file": "DiziBox-release.aar"
+  },
+  {
+    "name": "DiziFun",
+    "className": "com.nikyokki.DiziFun",
+    "file": "DiziFun-release.aar"
+  },
+  {
+    "name": "DiziGom",
+    "className": "com.nikyokki.DiziGom",
+    "file": "DiziGom-release.aar"
+  },
+  {
+    "name": "DiziKorea",
+    "className": "com.nikyokki.DiziKorea",
+    "file": "DiziKorea-release.aar"
+  },
+  {
+    "name": "DiziMag",
+    "className": "com.nikyokki.DiziMag",
+    "file": "DiziMag-release.aar"
+  },
+  {
+    "name": "DiziMom",
+    "className": "com.nikyokki.DiziMom",
+    "file": "DiziMom-release.aar"
+  },
+  {
+    "name": "DiziMore",
+    "className": "com.nikyokki.DiziMore",
+    "file": "DiziMore-release.aar"
+  },
+  {
+    "name": "DiziPal",
+    "className": "com.nikyokki.DiziPal",
+    "file": "DiziPal-release.aar"
+  },
+  {
+    "name": "DiziYo",
+    "className": "com.nikyokki.DiziYo",
+    "file": "DiziYo-release.aar"
+  },
+  {
+    "name": "DiziYou",
+    "className": "com.nikyokki.DiziYou",
+    "file": "DiziYou-release.aar"
+  },
+  {
+    "name": "Dizilla",
+    "className": "com.nikyokki.Dizilla",
+    "file": "Dizilla-release.aar"
+  },
+  {
+    "name": "Donghuastream",
+    "className": "com.Donghuastream.Donghuastream",
+    "file": "Donghuastream-release.aar"
+  },
+  {
+    "name": "DragonTV",
+    "className": "com.nikyokki.DragonTV",
+    "file": "DragonTV-release.aar"
+  },
+  {
+    "name": "FilmBip",
+    "className": "com.nikyokki.FilmBip",
+    "file": "FilmBip-release.aar"
+  },
+  {
+    "name": "Filmİzlesene",
+    "className": "com.nikyokki.FilmIzlesene",
+    "file": "Filmİzlesene-release.aar"
+  },
+  {
+    "name": "FilmKovasi",
+    "className": "com.nikyokki.FilmKovasi",
+    "file": "FilmKovasi-release.aar"
+  },
+  {
+    "name": "FilmMakinesi",
+    "className": "com.nikyokki.FilmMakinesi",
+    "file": "FilmMakinesi-release.aar"
+  },
+  {
+    "name": "FilmModu",
+    "className": "com.nikyokki.FilmModu",
+    "file": "FilmModu-release.aar"
+  },
+  {
+    "name": "FullHDFilm",
+    "className": "com.nikyokki.FullHDFilm",
+    "file": "FullHDFilm-release.aar"
+  },
+  {
+    "name": "FullHDFilmizlesene",
+    "className": "com.nikyokki.FullHDFilmizlesene",
+    "file": "FullHDFilmizlesene-release.aar"
+  },
+  {
+    "name": "FullHDFilmİzlede",
+    "className": "com.nikyokki.FullHDFilmIzlede",
+    "file": "FullHDFilmİzlede-release.aar"
+  },
+  {
+    "name": "FullPorner",
+    "className": "com.nikyokki.FullPorner",
+    "file": "FullPorner-release.aar"
+  },
+  {
+    "name": "GinikoCanli",
+    "className": "com.nikyokki.GinikoCanli",
+    "file": "GinikoCanli-release.aar"
+  },
+  {
+    "name": "HDFilmCehennemi",
+    "className": "com.keyiflerolsun.HDFilmCehennemi",
+    "file": "HDFilmCehennemi-release.aar"
+  },
+  {
+    "name": "HDFilmCehennemi2",
+    "className": "com.nikyokki.HDFilmCehennemi2",
+    "file": "HDFilmCehennemi2-release.aar"
+  },
+  {
+    "name": "HDFilmIzle",
+    "className": "com.nikyokki.HDFilmIzle",
+    "file": "HDFilmIzle-release.aar"
+  },
+  {
+    "name": "HDFilmSitesi",
+    "className": "com.nikyokki.HDFilmSitesi",
+    "file": "HDFilmSitesi-release.aar"
+  },
+  {
+    "name": "HQPorner",
+    "className": "com.nikyokki.HQPorner",
+    "file": "HQPorner-release.aar"
+  },
+  {
+    "name": "InatBox",
+    "className": "com.nikyokki.InatBox",
+    "file": "InatBox-release.aar"
+  },
+  {
+    "name": "IpTvPlayStream",
+    "className": "com.nikyokki.IpTvPlayStream",
+    "file": "IpTvPlayStream-release.aar"
+  },
+  {
+    "name": "JetFilmizle",
+    "className": "com.nikyokki.JetFilmizle",
+    "file": "JetFilmizle-release.aar"
+  },
+  {
+    "name": "KoreanTurk",
+    "className": "com.nikyokki.KoreanTurk",
+    "file": "KoreanTurk-release.aar"
+  },
+  {
+    "name": "KultFilmler",
+    "className": "com.nikyokki.KultFilmler",
+    "file": "KultFilmler-release.aar"
+  },
+  {
+    "name": "NetflixMirror",
+    "className": "com.nikyokki.NetflixMirror",
+    "file": "NetflixMirror-release.aar"
+  },
+  {
+    "name": "OxAx",
+    "className": "com.nikyokki.OxAx",
+    "file": "OxAx-release.aar"
+  },
+  {
+    "name": "PornHub",
+    "className": "com.nikyokki.PornHub",
+    "file": "PornHub-release.aar"
+  },
+  {
+    "name": "RareFilmm",
+    "className": "com.nikyokki.RareFilmm",
+    "file": "RareFilmm-release.aar"
+  },
+  {
+    "name": "RecTV",
+    "className": "com.nikyokki.RecTV",
+    "file": "RecTV-release.aar"
+  },
+  {
+    "name": "RoketDizi",
+    "className": "com.nikyokki.RoketDizi",
+    "file": "RoketDizi-release.aar"
+  },
+  {
+    "name": "SelcukFlix",
+    "className": "com.nikyokki.SelcukFlix",
+    "file": "SelcukFlix-release.aar"
+  },
+  {
+    "name": "SetFilmIzle",
+    "className": "com.nikyokki.SetFilmIzle",
+    "file": "SetFilmIzle-release.aar"
+  },
+  {
+    "name": "SezonlukDizi",
+    "className": "com.nikyokki.SezonlukDizi",
+    "file": "SezonlukDizi-release.aar"
+  },
+  {
+    "name": "SineWix",
+    "className": "com.nikyokki.SineWix",
+    "file": "SineWix-release.aar"
+  },
+  {
+    "name": "Sinefy",
+    "className": "com.kraptor.Sinefy",
+    "file": "Sinefy-release.aar"
+  },
+  {
+    "name": "SinemaCX",
+    "className": "com.nikyokki.SinemaCX",
+    "file": "SinemaCX-release.aar"
+  },
+  {
+    "name": "SpankBang",
+    "className": "com.nikyokki.SpankBang",
+    "file": "SpankBang-release.aar"
+  },
+  {
+    "name": "SuperFilmGeldi",
+    "className": "com.nikyokki.SuperFilmGeldi",
+    "file": "SuperFilmGeldi-release.aar"
+  },
+  {
+    "name": "TLCtr",
+    "className": "com.nikyokki.TLCtr",
+    "file": "TLCtr-release.aar"
+  },
+  {
+    "name": "TRanimaci",
+    "className": "com.nikyokki.TRanimaci",
+    "file": "TRanimaci-release.aar"
+  },
+  {
+    "name": "TRasyalog",
+    "className": "com.nikyokki.TRasyalog",
+    "file": "TRasyalog-release.aar"
+  },
+  {
+    "name": "Tafdi",
+    "className": "com.nikyokki.Tafdi",
+    "file": "Tafdi-release.aar"
+  },
+  {
+    "name": "TrDiziIzle",
+    "className": "com.nikyokki.TrDiziIzle",
+    "file": "TrDiziIzle-release.aar"
+  },
+  {
+    "name": "TurkAnime",
+    "className": "com.nikyokki.TurkAnime",
+    "file": "TurkAnime-release.aar"
+  },
+  {
+    "name": "TvDiziler",
+    "className": "com.nikyokki.TvDiziler",
+    "file": "TvDiziler-release.aar"
+  },
+  {
+    "name": "UgurFilm",
+    "className": "com.nikyokki.UgurFilm",
+    "file": "UgurFilm-release.aar"
+  },
+  {
+    "name": "UncutMaza",
+    "className": "com.nikyokki.UncutMaza",
+    "file": "UncutMaza-release.aar"
+  },
+  {
+    "name": "Vavoo",
+    "className": "com.nikyokki.Vavoo",
+    "file": "Vavoo-release.aar"
+  },
+  {
+    "name": "WFilmİzle",
+    "className": "com.nikyokki.WFilmIzle",
+    "file": "WFilmİzle-release.aar"
+  },
+  {
+    "name": "Watch2Movies",
+    "className": "com.keyiflerolsun.Watch2Movies",
+    "file": "Watch2Movies-release.aar"
+  },
+  {
+    "name": "Watch32",
+    "className": "com.kerimmkirac.Watch32Provider",
+    "file": "Watch32-release.aar"
+  },
+  {
+    "name": "WebteIzle",
+    "className": "com.keyiflerolsun.WebteIzle",
+    "file": "WebteIzle-release.aar"
+  },
+  {
+    "name": "YTS",
+    "className": "com.nikyokki.YTS",
+    "file": "YTS-release.aar"
+  },
+  {
+    "name": "YabanciDizi",
+    "className": "com.nikyokki.YabanciDizi",
+    "file": "YabanciDizi-release.aar"
+  },
+  {
+    "name": "YouTube",
+    "className": "com.nikyokki.YouTube",
+    "file": "YouTube-release.aar"
+  },
+  {
+    "name": "iptvSevenler",
+    "className": "com.nikyokki.iptvSevenler",
+    "file": "iptvSevenler-release.aar"
+  },
+  {
+    "name": "powerDizi",
+    "className": "com.nikyokki.powerDizi",
+    "file": "powerDizi-release.aar"
+  },
+  {
+    "name": "powerSinema",
+    "className": "com.nikyokki.powerSinema",
+    "file": "powerSinema-release.aar"
+  },
+  {
+    "name": "vavooSpor",
+    "className": "com.nikyokki.vavooSpor",
+    "file": "vavooSpor-release.aar"
+  },
+  {
+    "name": "xHamster",
+    "className": "com.nikyokki.xHamster",
+    "file": "xHamster-release.aar"
+  }
+]
   
