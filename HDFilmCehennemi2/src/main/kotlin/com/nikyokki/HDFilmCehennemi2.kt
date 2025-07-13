@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import com.lagradost.cloudstream3.Actor
 import com.lagradost.cloudstream3.Episode
 import com.lagradost.cloudstream3.HomePageResponse
+import com.lagradost.cloudstream3.newEpisode
 import com.lagradost.cloudstream3.LoadResponse
 import com.lagradost.cloudstream3.LoadResponse.Companion.addActors
 import com.lagradost.cloudstream3.LoadResponse.Companion.addTrailer
@@ -180,12 +181,11 @@ class HDFilmCehennemi2 : MainAPI() {
                     val epnum =
                         epName?.substringAfter("Sezon ")?.substringBefore(". Bölüm")?.toIntOrNull()
                     episodes.add(
-                        Episode(
-                            data = epHref,
-                            name = epName,
-                            season = epSzn,
-                            episode = epnum
-                        )
+                        newEpisode(epHref) {
+                            this.name = epName
+                            this.season = epSzn
+                            this.episode = epnum
+                        }
                     )
                 }
             }

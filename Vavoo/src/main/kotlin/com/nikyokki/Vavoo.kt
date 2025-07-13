@@ -100,12 +100,13 @@ class Vavoo() : MainAPI() {
         val p: Int
     ) {
         fun toSearchResponse(apiName: String): LiveSearchResponse {
-            return LiveSearchResponse(
+            return newLiveSearchResponse(
                 name,
                 this.toJson(),
-                apiName,
-                posterUrl = posterLink
-            )
+                TvType.Live
+            ) {
+                this.posterUrl = posterLink
+            }
         }
     }
 }

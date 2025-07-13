@@ -78,7 +78,7 @@ open class Ultrahd : ExtractorApi() {
             Log.d("DHS", "unpacked » $unpacked")
             // Regex to match href attributes in <a> tags within the servers list
             Regex("""(?i)(?:window\.|var\s+)?downloadURL\s*=\s*["']([^"']+)["']""").findAll(extractedpack).forEach { match ->
-            val link = match.groupValues[1]
+                val link = match.groupValues[1]
                 Log.d("DHS", "Extracted link: $link")
                 app.get(link).parsedSafe<Root>()?.sources?.map {
                     val m3u8= httpsify( it.file)

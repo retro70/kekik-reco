@@ -1,25 +1,111 @@
-# 📺 cs-Kekik
+# Kekik Reco - Cloudstream Extensions
 
-Arşive alınmış projenin canlıya çekilmiş hali
+Bu repository, Cloudstream uygulaması için Türkçe içerik sağlayan eklentileri içerir.
 
-## 💾 Kurulum
+## 📦 Otomatik Derleme
 
-1. **[cloudstream/pre-release](https://github.com/recloudstream/cloudstream/releases/tag/pre-release)** _Adresinden güncel APK dosyasını indirip kurun._
-2. **Uygulamanın yüklü olduğu cihazda** _[depoyu otomatik yüklemek için tıklayın](https://keyiflerolsun.me/http-protocol-redirector?r=cloudstreamrepo://raw.githubusercontent.com/ramazansancar/keyiflerolsun_Kekik-cloudstream/master/repo.json)_
-  - **veya**
-  - `Depo ekle` _butonuyla **manuel** ekleme yapmak isteyen arkadaşlar için_ `kekikdevam` _**kısa kod**u mevcuttur._ `Depo ismi` _kısmını boş bırakarak_ `Depo URL'si` _kısmına_ `kekikdevam` yazarak `Depo ekle` _demeniz yeterli.._
+Bu proje GitHub Actions ile otomatik olarak derlenir:
 
-## 💡 Faydalı Linkler
+- **Push/Pull Request:** Her değişiklikte otomatik derleme
+- **Release:** Yeni sürüm yayınlandığında otomatik paket oluşturma
+- **Lint:** Kod kalitesi kontrolü
 
-- [Tanıtım Videosu](https://www.youtube.com/watch?v=CiYK7zrP00c)
-- [Diğer Eklentiler](https://rentry.org/cs3-repos)
-- [Eklenti Listesi Wiki](https://cloudstream.miraheze.org/wiki/List_of_extensions)
-- [Open Subtitles Desteği (Torrent veya Yabancı Eklentiler İçin)](https://recloudstream.github.io/csdocs/integrations/opensubtitles/)
-- [anicompat (Fazlaca Anime Eklenti Desteği)](https://youtu.be/0Gl48lL7e9Y)
-- [Eklenti Kodlama](https://www.youtube.com/watch?v=gWECdddixyA)
+## 🚀 Hızlı Başlangıç
+
+### Otomatik Derleme Sonuçları
+- **Actions sekmesinde** derleme durumunu takip edebilirsiniz
+- **Artifacts** bölümünden derlenen dosyaları indirebilirsiniz
+- **Releases** sayfasından sürüm dosyalarını bulabilirsiniz
+
+### Manuel Derleme
+```bash
+# Gereksinimler
+- Java 21
+- Android SDK
+- Gradle
+
+# Derleme
+./gradlew clean build
+
+# Eklenti paketi oluşturma
+mkdir -p cloudstream-extensions
+find . -name "*.aar" | grep "outputs/aar" | grep "release" | xargs -I {} cp {} cloudstream-extensions/
+cd cloudstream-extensions && zip -r ../kekik-reco-extensions.zip .
+```
+
+## 📱 Cloudstream'e Yükleme
+
+### Yöntem 1: ZIP Dosyası (Önerilen)
+1. **Releases** sayfasından `kekik-reco-extensions.zip` dosyasını indirin
+2. Cloudstream'i açın
+3. **Ayarlar > Eklentiler > Eklenti Yükle**
+4. ZIP dosyasını seçin
+
+### Yöntem 2: Tek Tek AAR
+1. **Artifacts** bölümünden `cloudstream-extensions` klasörünü indirin
+2. Her `.aar` dosyasını ayrı ayrı yükleyin
+
+## 📋 İçerik
+
+### Film Eklentileri
+- Filmİzlesene
+- FilmKovasi
+- HDFilmCehennemi
+- HDFilmCehennemi2
+- KultFilmler
+- Ve daha fazlası...
+
+### Dizi Eklentileri
+- DiziPal
+- DiziBox
+- DiziFun
+- DiziGom
+- Ve daha fazlası...
+
+### Anime Eklentileri
+- AnimeciX
+- AnimeIzlesene
+- Animeler
+- TurkAnime
+- Ve daha fazlası...
+
+### Diğer Eklentiler
+- NetflixMirror
+- YouTube
+- PornHub
+- Ve 80+ daha fazla eklenti
+
+## 🔧 Geliştirme
+
+### Yeni Eklenti Ekleme
+1. Yeni modül klasörü oluşturun
+2. `settings.gradle.kts` dosyasına ekleyin
+3. Kod yazın ve test edin
+4. Pull Request gönderin
+
+### Kod Standartları
+- Kotlin kullanın
+- Cloudstream API'sine uygun yazın
+- Lint kurallarına uyun
+- Test yazın
+
+## 📄 Lisans
+
+Bu proje açık kaynak kodludur.
+
+## 🤝 Katkıda Bulunma
+
+1. Fork yapın
+2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
+3. Commit yapın (`git commit -m 'Add amazing feature'`)
+4. Push yapın (`git push origin feature/amazing-feature`)
+5. Pull Request açın
+
+## 📞 İletişim
+
+- **GitHub Issues:** Hata bildirimi ve öneriler için
+- **Discussions:** Genel tartışmalar için
 
 ---
 
-<a href="https://github.com/ramazansancar/keyiflerolsun_Kekik-cloudstream/graphs/contributors?selectedMetric=additions" target="_blank">
-  <img src="https://contrib.rocks/image?repo=ramazansancar/keyiflerolsun_Kekik-cloudstream" />
-</a>
+⭐ Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!

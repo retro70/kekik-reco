@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonProperty
 import com.lagradost.cloudstream3.Actor
 import com.lagradost.cloudstream3.Episode
 import com.lagradost.cloudstream3.HomePageResponse
+import com.lagradost.cloudstream3.newEpisode
 import com.lagradost.cloudstream3.LoadResponse
 import com.lagradost.cloudstream3.LoadResponse.Companion.addActors
 import com.lagradost.cloudstream3.LoadResponse.Companion.addTrailer
@@ -129,12 +130,11 @@ class HDFilmSitesi : MainAPI() {
                 }
 
                 episodes.add(
-                    Episode(
-                        data = iframeLink,
-                        name = "${sz_num}. Sezon ${ep_num}. Bölüm",
-                        season = sz_num,
-                        episode = ep_num
-                    )
+                    newEpisode(iframeLink) {
+                        this.name = "${sz_num}. Sezon ${ep_num}. Bölüm"
+                        this.season = sz_num
+                        this.episode = ep_num
+                    }
                 )
             }
 

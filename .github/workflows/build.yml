@@ -1,0 +1,81 @@
+name: Build Cloudstream Extensions
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  release:
+    types: [ published ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up JDK 21
+      uses: actions/setup-java@v4
+      with:
+        java-version: '21'
+        distribution: 'temurin'
+        
+    - name: Set up Android SDK
+      uses: android-actions/setup-android@v2
+      
+    - name: Cache Gradle packages
+      uses: actions/cache@v3
+      with:
+        path: |
+          ~/.gradle/caches
+          ~/.gradle/wrapper
+        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+        restore-keys: |
+          ${{ runner.os }}-gradle-
+          
+    - name: Create local.properties
+      run: |
+        echo "sdk.dir=$ANDROID_HOME" > local.properties
+        
+    - name: Build with Gradle
+      run: ./gradlew clean build
+      
+    - name: Create extensions directory
+      run: mkdir -p cloudstream-extensions
+      
+    - name: Copy AAR files
+      run: |
+        find . -name "*.aar" | grep "outputs/aar" | grep "release" | xargs -I {} cp {} cloudstream-extensions/
+        
+    - name: Create ZIP archive
+      run: |
+        cd cloudstream-extensions
+        zip -r ../kekik-reco-extensions.zip .
+        cd ..
+        
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: cloudstream-extensions
+        path: |
+          kekik-reco-extensions.zip
+          cloudstream-extensions/
+        retention-days: 30
+        
+    - name: Create Release Assets
+      if: github.event_name == 'release'
+      run: |
+        cp kekik-reco-extensions.zip kekik-reco-extensions-v${{ github.event.release.tag_name }}.zip
+        
+    - name: Upload Release Assets
+      if: github.event_name == 'release'
+      uses: actions/upload-release-asset@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        upload_url: ${{ github.event.release.upload_url }}
+        asset_path: ./kekik-reco-extensions-v${{ github.event.release.tag_name }}.zip
+        asset_name: kekik-reco-extensions-v${{ github.event.release.tag_name }}.zip
+        asset_content_type: application/zip 

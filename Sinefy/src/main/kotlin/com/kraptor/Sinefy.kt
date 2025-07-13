@@ -311,10 +311,11 @@ class Sinefy : MainAPI() {
         Log.d("sinefy", "data » ${data}")
         val document = app.get(data).document
 
-        val iframe   = fixUrlNull(document.selectFirst("iframe")?.attr("src")).toString()
+        val iframe   = fixUrlNull(document.selectFirst("iframe")?.attr("src")) ?: ""
 
-
-        loadExtractor(iframe, "${mainUrl}/", subtitleCallback, callback)
+        if (iframe.isNotEmpty()) {
+            loadExtractor(iframe, "${mainUrl}/", subtitleCallback, callback)
+        }
 
         return true
     }

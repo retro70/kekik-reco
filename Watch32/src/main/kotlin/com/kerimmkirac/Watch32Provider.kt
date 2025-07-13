@@ -1,6 +1,7 @@
 import com.lagradost.api.Log
 import com.lagradost.cloudstream3.Episode
 import com.lagradost.cloudstream3.HomePageList
+import com.lagradost.cloudstream3.newEpisode
 import com.lagradost.cloudstream3.HomePageResponse
 import com.lagradost.cloudstream3.LoadResponse
 import com.lagradost.cloudstream3.MainAPI
@@ -146,10 +147,12 @@ class Watch32Provider : MainAPI() {
 
                 var numEpi = 0
                 episodes += web.select(".nav-item").map {
-                    Episode(
-                        "$mainUrl/ajax/episode/servers/${it.select("a").attr("data-id")}",
-                        it.text().split(":")[1], numSeason + 1, ++numEpi, posterUrl = coverImage
-                    )
+                    newEpisode("$mainUrl/ajax/episode/servers/${it.select("a").attr("data-id")}") {
+                        this.name = it.text().split(":")[1]
+                        this.season = numSeason + 1
+                        this.episode = ++numEpi
+                        this.posterUrl = coverImage
+                    }
                 }.toMutableList()
             }
         }
