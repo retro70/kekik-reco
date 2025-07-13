@@ -1,8 +1,8 @@
 {
-  "name": "Turkish Providers Repository | @KekikAkademi",
-  "description": "Türkçe içerikli eklenti havuzu",
+  "name": "Kekik Reco | @retro70",
+  "description": "Cloudstream için Türkçe içerik sağlayıcı – Kekik Reco eklentisi",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/maarrem/cs-Kekik/builds/plugins.json"
+    "https://raw.githubusercontent.com/retro70/kekik-reco/builds/plugins.json"
   ]
 }
