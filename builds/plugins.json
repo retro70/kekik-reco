@@ -2,422 +2,422 @@
   {
     "name": "4KFilmIzlesene",
     "className": "com.nikyokki.FourKFilmIzlesene",
-    "file": "4KFilmIzlesene-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/4KFilmIzlesene-release.aar"
   },
   {
     "name": "AnimeIzlesene",
     "className": "com.nikyokki.AnimeIzlesene",
-    "file": "AnimeIzlesene-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/AnimeIzlesene-release.aar"
   },
   {
     "name": "AnimeciX",
     "className": "com.nikyokki.AnimeciX",
-    "file": "AnimeciX-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/AnimeciX-release.aar"
   },
   {
     "name": "Animeler",
     "className": "com.nikyokki.Animeler",
-    "file": "Animeler-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/Animeler-release.aar"
   },
   {
     "name": "Animex",
     "className": "com.nikyokki.Animex",
-    "file": "Animex-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/Animex-release.aar"
   },
   {
     "name": "Anizm",
     "className": "com.nikyokki.Anizm",
-    "file": "Anizm-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/Anizm-release.aar"
   },
   {
     "name": "AsyaAnimeleri",
     "className": "com.nikyokki.AsyaAnimeleri",
-    "file": "AsyaAnimeleri-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/AsyaAnimeleri-release.aar"
   },
   {
     "name": "AsyaWatch",
     "className": "com.nikyokki.AsyaWatch",
-    "file": "AsyaWatch-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/AsyaWatch-release.aar"
   },
   {
     "name": "BelgeselX",
     "className": "com.nikyokki.BelgeselX",
-    "file": "BelgeselX-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/BelgeselX-release.aar"
   },
   {
     "name": "CanliTV",
     "className": "com.nikyokki.CanliTV",
-    "file": "CanliTV-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/CanliTV-release.aar"
   },
   {
     "name": "CanliTelevizyon",
     "className": "com.nikyokki.CanliTelevizyon",
-    "file": "CanliTelevizyon-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/CanliTelevizyon-release.aar"
   },
   {
     "name": "CizgiMax",
     "className": "com.nikyokki.CizgiMax",
-    "file": "CizgiMax-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/CizgiMax-release.aar"
   },
   {
     "name": "CizgiveDizi",
     "className": "com.nikyokki.CizgiveDizi",
-    "file": "CizgiveDizi-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/CizgiveDizi-release.aar"
   },
   {
     "name": "DMax",
     "className": "com.nikyokki.DMax",
-    "file": "DMax-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/DMax-release.aar"
   },
   {
     "name": "Ddizi",
     "className": "com.nikyokki.Ddizi",
-    "file": "Ddizi-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/Ddizi-release.aar"
   },
   {
     "name": "DiziBox",
     "className": "com.nikyokki.DiziBox",
-    "file": "DiziBox-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/DiziBox-release.aar"
   },
   {
     "name": "DiziFun",
     "className": "com.nikyokki.DiziFun",
-    "file": "DiziFun-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/DiziFun-release.aar"
   },
   {
     "name": "DiziGom",
     "className": "com.nikyokki.DiziGom",
-    "file": "DiziGom-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/DiziGom-release.aar"
   },
   {
     "name": "DiziKorea",
     "className": "com.nikyokki.DiziKorea",
-    "file": "DiziKorea-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/DiziKorea-release.aar"
   },
   {
     "name": "DiziMag",
     "className": "com.nikyokki.DiziMag",
-    "file": "DiziMag-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/DiziMag-release.aar"
   },
   {
     "name": "DiziMom",
     "className": "com.nikyokki.DiziMom",
-    "file": "DiziMom-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/DiziMom-release.aar"
   },
   {
     "name": "DiziMore",
     "className": "com.nikyokki.DiziMore",
-    "file": "DiziMore-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/DiziMore-release.aar"
   },
   {
     "name": "DiziPal",
     "className": "com.nikyokki.DiziPal",
-    "file": "DiziPal-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/DiziPal-release.aar"
   },
   {
     "name": "DiziYo",
     "className": "com.nikyokki.DiziYo",
-    "file": "DiziYo-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/DiziYo-release.aar"
   },
   {
     "name": "DiziYou",
     "className": "com.nikyokki.DiziYou",
-    "file": "DiziYou-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/DiziYou-release.aar"
   },
   {
     "name": "Dizilla",
     "className": "com.nikyokki.Dizilla",
-    "file": "Dizilla-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/Dizilla-release.aar"
   },
   {
     "name": "Donghuastream",
     "className": "com.Donghuastream.Donghuastream",
-    "file": "Donghuastream-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/Donghuastream-release.aar"
   },
   {
     "name": "DragonTV",
     "className": "com.nikyokki.DragonTV",
-    "file": "DragonTV-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/DragonTV-release.aar"
   },
   {
     "name": "FilmBip",
     "className": "com.nikyokki.FilmBip",
-    "file": "FilmBip-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/FilmBip-release.aar"
   },
   {
     "name": "Filmİzlesene",
     "className": "com.nikyokki.FilmIzlesene",
-    "file": "Filmİzlesene-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/Filmİzlesene-release.aar"
   },
   {
     "name": "FilmKovasi",
     "className": "com.nikyokki.FilmKovasi",
-    "file": "FilmKovasi-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/FilmKovasi-release.aar"
   },
   {
     "name": "FilmMakinesi",
     "className": "com.nikyokki.FilmMakinesi",
-    "file": "FilmMakinesi-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/FilmMakinesi-release.aar"
   },
   {
     "name": "FilmModu",
     "className": "com.nikyokki.FilmModu",
-    "file": "FilmModu-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/FilmModu-release.aar"
   },
   {
     "name": "FullHDFilm",
     "className": "com.nikyokki.FullHDFilm",
-    "file": "FullHDFilm-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/FullHDFilm-release.aar"
   },
   {
     "name": "FullHDFilmizlesene",
     "className": "com.nikyokki.FullHDFilmizlesene",
-    "file": "FullHDFilmizlesene-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/FullHDFilmizlesene-release.aar"
   },
   {
     "name": "FullHDFilmİzlede",
     "className": "com.nikyokki.FullHDFilmIzlede",
-    "file": "FullHDFilmİzlede-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/FullHDFilmİzlede-release.aar"
   },
   {
     "name": "FullPorner",
     "className": "com.nikyokki.FullPorner",
-    "file": "FullPorner-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/FullPorner-release.aar"
   },
   {
     "name": "GinikoCanli",
     "className": "com.nikyokki.GinikoCanli",
-    "file": "GinikoCanli-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/GinikoCanli-release.aar"
   },
   {
     "name": "HDFilmCehennemi",
     "className": "com.keyiflerolsun.HDFilmCehennemi",
-    "file": "HDFilmCehennemi-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/HDFilmCehennemi-release.aar"
   },
   {
     "name": "HDFilmCehennemi2",
     "className": "com.nikyokki.HDFilmCehennemi2",
-    "file": "HDFilmCehennemi2-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/HDFilmCehennemi2-release.aar"
   },
   {
     "name": "HDFilmIzle",
     "className": "com.nikyokki.HDFilmIzle",
-    "file": "HDFilmIzle-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/HDFilmIzle-release.aar"
   },
   {
     "name": "HDFilmSitesi",
     "className": "com.nikyokki.HDFilmSitesi",
-    "file": "HDFilmSitesi-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/HDFilmSitesi-release.aar"
   },
   {
     "name": "HQPorner",
     "className": "com.nikyokki.HQPorner",
-    "file": "HQPorner-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/HQPorner-release.aar"
   },
   {
     "name": "InatBox",
     "className": "com.nikyokki.InatBox",
-    "file": "InatBox-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/InatBox-release.aar"
   },
   {
     "name": "IpTvPlayStream",
     "className": "com.nikyokki.IpTvPlayStream",
-    "file": "IpTvPlayStream-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/IpTvPlayStream-release.aar"
   },
   {
     "name": "JetFilmizle",
     "className": "com.nikyokki.JetFilmizle",
-    "file": "JetFilmizle-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/JetFilmizle-release.aar"
   },
   {
     "name": "KoreanTurk",
     "className": "com.nikyokki.KoreanTurk",
-    "file": "KoreanTurk-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/KoreanTurk-release.aar"
   },
   {
     "name": "KultFilmler",
     "className": "com.nikyokki.KultFilmler",
-    "file": "KultFilmler-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/KultFilmler-release.aar"
   },
   {
     "name": "NetflixMirror",
     "className": "com.nikyokki.NetflixMirror",
-    "file": "NetflixMirror-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/NetflixMirror-release.aar"
   },
   {
     "name": "OxAx",
     "className": "com.nikyokki.OxAx",
-    "file": "OxAx-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/OxAx-release.aar"
   },
   {
     "name": "PornHub",
     "className": "com.nikyokki.PornHub",
-    "file": "PornHub-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/PornHub-release.aar"
   },
   {
     "name": "RareFilmm",
     "className": "com.nikyokki.RareFilmm",
-    "file": "RareFilmm-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/RareFilmm-release.aar"
   },
   {
     "name": "RecTV",
     "className": "com.nikyokki.RecTV",
-    "file": "RecTV-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/RecTV-release.aar"
   },
   {
     "name": "RoketDizi",
     "className": "com.nikyokki.RoketDizi",
-    "file": "RoketDizi-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/RoketDizi-release.aar"
   },
   {
     "name": "SelcukFlix",
     "className": "com.nikyokki.SelcukFlix",
-    "file": "SelcukFlix-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/SelcukFlix-release.aar"
   },
   {
     "name": "SetFilmIzle",
     "className": "com.nikyokki.SetFilmIzle",
-    "file": "SetFilmIzle-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/SetFilmIzle-release.aar"
   },
   {
     "name": "SezonlukDizi",
     "className": "com.nikyokki.SezonlukDizi",
-    "file": "SezonlukDizi-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/SezonlukDizi-release.aar"
   },
   {
     "name": "SineWix",
     "className": "com.nikyokki.SineWix",
-    "file": "SineWix-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/SineWix-release.aar"
   },
   {
     "name": "Sinefy",
     "className": "com.kraptor.Sinefy",
-    "file": "Sinefy-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/Sinefy-release.aar"
   },
   {
     "name": "SinemaCX",
     "className": "com.nikyokki.SinemaCX",
-    "file": "SinemaCX-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/SinemaCX-release.aar"
   },
   {
     "name": "SpankBang",
     "className": "com.nikyokki.SpankBang",
-    "file": "SpankBang-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/SpankBang-release.aar"
   },
   {
     "name": "SuperFilmGeldi",
     "className": "com.nikyokki.SuperFilmGeldi",
-    "file": "SuperFilmGeldi-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/SuperFilmGeldi-release.aar"
   },
   {
     "name": "TLCtr",
     "className": "com.nikyokki.TLCtr",
-    "file": "TLCtr-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/TLCtr-release.aar"
   },
   {
     "name": "TRanimaci",
     "className": "com.nikyokki.TRanimaci",
-    "file": "TRanimaci-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/TRanimaci-release.aar"
   },
   {
     "name": "TRasyalog",
     "className": "com.nikyokki.TRasyalog",
-    "file": "TRasyalog-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/TRasyalog-release.aar"
   },
   {
     "name": "Tafdi",
     "className": "com.nikyokki.Tafdi",
-    "file": "Tafdi-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/Tafdi-release.aar"
   },
   {
     "name": "TrDiziIzle",
     "className": "com.nikyokki.TrDiziIzle",
-    "file": "TrDiziIzle-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/TrDiziIzle-release.aar"
   },
   {
     "name": "TurkAnime",
     "className": "com.nikyokki.TurkAnime",
-    "file": "TurkAnime-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/TurkAnime-release.aar"
   },
   {
     "name": "TvDiziler",
     "className": "com.nikyokki.TvDiziler",
-    "file": "TvDiziler-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/TvDiziler-release.aar"
   },
   {
     "name": "UgurFilm",
     "className": "com.nikyokki.UgurFilm",
-    "file": "UgurFilm-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/UgurFilm-release.aar"
   },
   {
     "name": "UncutMaza",
     "className": "com.nikyokki.UncutMaza",
-    "file": "UncutMaza-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/UncutMaza-release.aar"
   },
   {
     "name": "Vavoo",
     "className": "com.nikyokki.Vavoo",
-    "file": "Vavoo-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/Vavoo-release.aar"
   },
   {
     "name": "WFilmİzle",
     "className": "com.nikyokki.WFilmIzle",
-    "file": "WFilmİzle-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/WFilmİzle-release.aar"
   },
   {
     "name": "Watch2Movies",
     "className": "com.keyiflerolsun.Watch2Movies",
-    "file": "Watch2Movies-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/Watch2Movies-release.aar"
   },
   {
     "name": "Watch32",
     "className": "com.kerimmkirac.Watch32Provider",
-    "file": "Watch32-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/Watch32-release.aar"
   },
   {
     "name": "WebteIzle",
     "className": "com.keyiflerolsun.WebteIzle",
-    "file": "WebteIzle-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/WebteIzle-release.aar"
   },
   {
     "name": "YTS",
     "className": "com.nikyokki.YTS",
-    "file": "YTS-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/YTS-release.aar"
   },
   {
     "name": "YabanciDizi",
     "className": "com.nikyokki.YabanciDizi",
-    "file": "YabanciDizi-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/YabanciDizi-release.aar"
   },
   {
     "name": "YouTube",
     "className": "com.nikyokki.YouTube",
-    "file": "YouTube-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/YouTube-release.aar"
   },
   {
     "name": "iptvSevenler",
     "className": "com.nikyokki.iptvSevenler",
-    "file": "iptvSevenler-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/iptvSevenler-release.aar"
   },
   {
     "name": "powerDizi",
     "className": "com.nikyokki.powerDizi",
-    "file": "powerDizi-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/powerDizi-release.aar"
   },
   {
     "name": "powerSinema",
     "className": "com.nikyokki.powerSinema",
-    "file": "powerSinema-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/powerSinema-release.aar"
   },
   {
     "name": "vavooSpor",
     "className": "com.nikyokki.vavooSpor",
-    "file": "vavooSpor-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/vavooSpor-release.aar"
   },
   {
     "name": "xHamster",
     "className": "com.nikyokki.xHamster",
-    "file": "xHamster-release.aar"
+    "file": "https://raw.githubusercontent.com/retro70/kekik-reco/master/cloudstream-extensions/xHamster-release.aar"
   }
 ]
   
