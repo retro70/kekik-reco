@@ -17,7 +17,7 @@ import org.jsoup.Jsoup
 import java.util.regex.Pattern
 
 class FullHDFilm : MainAPI() {
-    override var mainUrl              = "https://fullhdfilm.us"
+    override var mainUrl              = "http://ww19.fullhdfilm.us"
     override var name                 = "FullHDFilm"
     override val hasMainPage          = true
     override var lang                 = "tr"
@@ -50,7 +50,7 @@ class FullHDFilm : MainAPI() {
         val headers = mapOf(
                 "User-Agent" to "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
                 "Accept" to "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-                "Referer" to "https://fullhdfilm.us/"
+                "Referer" to "http://ww19.fullhdfilm.us/"
             )
         val document = app.get("${request.data}/${page}/", headers=headers).document
         val home     = document.select("div.movie-poster").mapNotNull { it.toMainPageResult() }
